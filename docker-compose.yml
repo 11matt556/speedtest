@@ -1,6 +1,7 @@
 version: "2"
 services:
   speedtest:
+    container_name: speedtest
     image: e7db/speedtest
     volumes:
       - ./speedtest_results:/app/results
