@@ -1,0 +1,7 @@
+speedtest:
+  image: e7db/speedtest
+  volumes:
+   - ./speedtest_results:/app/results
+  ports:
+   - "8080:80"
+  restart: unless-stopped
